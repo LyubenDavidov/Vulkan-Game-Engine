@@ -1,0 +1,25 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "macOS",
+      "compilerPath": "/usr/bin/clang++",
+      "cppStandard": "c++20",
+      "cStandard": "c17",
+      "intelliSenseMode": "macos-clang-arm64",
+      "includePath": [
+        "${workspaceFolder}/**",
+
+        "/opt/homebrew/include",
+        "/usr/local/include",
+
+        "/Users/ldavidov/VulkanSDK/1.4.335.1/macOS/include"
+      ],
+      "defines": [
+        "GLFW_INCLUDE_VULKAN",
+        "GLM_FORCE_RADIANS",
+        "GLM_FORCE_DEPTH_ZERO_TO_ONE"
+      ]
+    }
+  ]
+}
